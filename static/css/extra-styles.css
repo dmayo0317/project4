@@ -1,4 +1,4 @@
-header {
+.video-header {
   position: relative;
   background-color: black;
   height: 75vh;
@@ -7,7 +7,7 @@ header {
   overflow: hidden;
 }
 
-header video {
+.video-header video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -22,12 +22,12 @@ header video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
+.video-header .container {
   position: relative;
   z-index: 2;
 }
 
-header .overlay {
+.video-header .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -46,6 +46,10 @@ header .overlay {
 
 .h2-padding{
   margin-top: 40px;
+}
+
+.h1-font{
+  font-size: 80px;
 }
 
 /* Media Query for devices withi coarse pointers and no hover functionality */

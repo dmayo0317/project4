@@ -18,19 +18,19 @@ def analysis():
     # Return template and data
     return render_template("analysis.html")
 
-# Route to render analysis.html template
+# Route to render recommender.html template
 @app.route("/recommender")
 def recommender():
     # Return template and data
     return render_template("recommender.html")
 
-# Route to render analysis.html template
+# Route to render the-team.html template
 @app.route("/the-team")
 def team():
     # Return template and data
     return render_template("the-team.html")
 
-# Route to render analysis.html template
+# Route to render works-cited.html template
 @app.route("/works-cited")
 def references():
     # Return template and data

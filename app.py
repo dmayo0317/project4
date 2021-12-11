@@ -10,31 +10,31 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     # Return template and data
-    return render_template("homepage.html")
+    return render_template("index.html")
 
 # Route to render analysis.html template
 @app.route("/analysis")
 def analysis():
     # Return template and data
-    return render_template("analysis.html")
+    return render_template("page/analysis.html")
 
 # Route to render recommender.html template
 @app.route("/recommender")
 def recommender():
     # Return template and data
-    return render_template("recommender.html")
+    return render_template("page/recommender.html")
 
 # Route to render the-team.html template
 @app.route("/the-team")
 def team():
     # Return template and data
-    return render_template("the-team.html")
+    return render_template("page/the-team.html")
 
 # Route to render works-cited.html template
 @app.route("/works-cited")
 def references():
     # Return template and data
-    return render_template("works-cited.html")             
+    return render_template("page/works-cited.html")             
 
 if __name__ == "__main__":
     app.run(debug=True)

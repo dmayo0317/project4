@@ -33,6 +33,14 @@ The project team plans on continueing the development of the demo page by includ
 * Update the model so that it can predict using daily fluctuations in data instead of monthly. 
 * Increase the number of cryptocurrencies used. 
 
+## Project 4 Team: Best and Brightest Analysis
+  <b>
+&emsp;  - Celenia Chapa
+&emsp;  - Tyler Cutrer
+&emsp; - Daniella Mayoral
+  </b>
+
+
 ## Resources Used
 
 ### Bootstrap & Code Snippets:

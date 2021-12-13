@@ -30,6 +30,12 @@ def team():
     # Return template and data
     return render_template("page/the-team.html")
 
+# Route to render report.html template
+@app.route("/report")
+def report():
+    # Return template and data
+    return render_template("page/report.html")     
+
 # Route to render works-cited.html template
 @app.route("/works-cited")
 def references():

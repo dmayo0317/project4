@@ -15,7 +15,7 @@ This section was designed for the users to be able to play with the historical d
 
 The Dashboard was configured using parameters that connected the charts to the chosen cryptocurrency. This allows the user to choose the desired crypto in a popup menu which will alter the values in the dashboard. Additionally, the user has more control by utilizing the date selector and selecting if they’d like to see 1 day, 1 week, 1 month, 3 months, 1 year, or 5 years. 
 
-<img src= "https://user-images.githubusercontent.com/85977271/145730868-b9756e82-9cdf-454d-b15d-3cdb795947c7.PNG" width="500" height="350"/>
+<img src= "https://user-images.githubusercontent.com/85977271/145730868-b9756e82-9cdf-454d-b15d-3cdb795947c7.PNG" width="450" height="300"/>
 
 ## Machine Learning Model
 
@@ -44,30 +44,30 @@ To identify the appropriate ARIMA model for time series data, we need to begin b
 ### Bitcoin Analysis
 In these graphs, you can see that Bitcoin continues with a steady rise with slide decreases in price. The largest dip in price is predicted to be in mid-2023 with the highest peak being in early 2024. Our predictions show that Bitcoin will rise to roughly $90,000 - $110,000 in the next three years. Our recommendation: Buy now to maximize your profits!
 
-<img src= "" width="500" height="350"/>
+<img src= "https://user-images.githubusercontent.com/85977271/145919514-927f5b54-9db2-4735-bea8-52ec7537c8fe.PNG" width="800" height="250"/>
 
-<img src= "" width="500" height="350"/>
+<img src= "https://user-images.githubusercontent.com/85977271/145919565-88831128-4a34-45b3-a5c2-e022219de282.PNG" width="800" height="250"/>
 
 ### Ethereum Analysis
 In these graphs, you can see that Ethereum is predicted to have a meteoric rise in the next three years. It will be on the continuous rise until 2024 and we predict that the price will be somewhere between $25,000 - $35,000. Our recommendation: Buy now to maximize your profits!
 
-<img src= "" width="500" height="350"/>
+<img src= "https://user-images.githubusercontent.com/85977271/145919586-26af9c8a-6792-42df-8e06-120a60300c7d.PNG" width="800" height="250"/>
 
-<img src= "" width="500" height="350"/>
+<img src= "https://user-images.githubusercontent.com/85977271/145919609-a0cceb0e-e885-445b-9c5e-f6c8ebd20d2c.PNG" width="800" height="250"/>
 
 ### Litecoin Analysis
 In these graphs, you can see that Litecoin has many dips and peaks until 2024. We predict that the lowest dip will be in late 2023 and the highest peak will be in early 2024. Our recommendation: Be Cautious and keep your eye on the price changes! Remember to buy low and sell high!
 
-<img src= "" width="500" height="350"/>
+<img src= "https://user-images.githubusercontent.com/85977271/145919693-aa23dc79-7584-48f0-bf98-1c40884f8072.PNG" width="800" height="250"/>
 
-<img src= "" width="500" height="350"/>
+<img src= "" width="800" height="250"/>
 
 ### XRP Analysis
 In these graphs, you can see that XRP is extremely inconsistent over the next three years with wildly contrasting changes in price. According to our predictions, the pattern does hold consistent that the dips occur early every year and the peaks occur a few months afterward. Our recommendation: Be cautious and time your purchases! Remember to buy low and sell high!
 
-<img src= "" width="500" height="350"/>
+<img src= "https://user-images.githubusercontent.com/85977271/145919644-f7d02ab8-3b04-458a-b96c-70ac1d4d23ef.PNG" width="800" height="250"/>
 
-<img src= "" width="500" height="350"/>
+<img src= "https://user-images.githubusercontent.com/85977271/145919672-58de51a5-1d0b-4b9b-a809-97d9ce43fa53.PNG" width="800" height="250"/>
 
 ## Web Design 
 After initializing a Flask-powered API, we used Heroku to deploy the web page to the cloud. We decided to use Bootstrap to create the themes for the website. This theme provided large imagery and text space for our visualizations and analysis. The theme’s imagery was updated with cryptocurrency photography provided from pexels.com to express the intricacies of cryptocurrency. When it came to understanding cryptocurrency, we wanted to approach our  web design in a clean and simple way. We created an easy-to-use menu that provided the user the ability to see the landing page with a quick history and explanation of cryptocurrency, recommendations from the results of the SARIMA model, an analysis page that included the Tableau of our historical data, our report from the project, a works cited page, and the project teams information. 

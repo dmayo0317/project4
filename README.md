@@ -41,28 +41,28 @@ The value of d, therefore, is the minimum number of differences needed to make t
  
 To identify the appropriate ARIMA model for time series data, we need to begin by identifying the orders. We used SARIMAX to evaluate if the order would fit the model because there are more than one order that is used. SARIMAX stands for Seasonal AutoRegressive Integrated Moving Average with eXogenous regressors.
 
-### Bitcoin Analysis
+### Bitcoin Results
 In these graphs, you can see that Bitcoin continues with a steady rise with slide decreases in price. The largest dip in price is predicted to be in mid-2023 with the highest peak being in early 2024. Our predictions show that Bitcoin will rise to roughly $90,000 - $110,000 in the next three years. Our recommendation: Buy now to maximize your profits!
 
 <img src= "https://user-images.githubusercontent.com/85977271/145919514-927f5b54-9db2-4735-bea8-52ec7537c8fe.PNG" width="800" height="250"/>
 
 <img src= "https://user-images.githubusercontent.com/85977271/145919565-88831128-4a34-45b3-a5c2-e022219de282.PNG" width="800" height="250"/>
 
-### Ethereum Analysis
+### Ethereum Results
 In these graphs, you can see that Ethereum is predicted to have a meteoric rise in the next three years. It will be on the continuous rise until 2024 and we predict that the price will be somewhere between $25,000 - $35,000. Our recommendation: Buy now to maximize your profits!
 
 <img src= "https://user-images.githubusercontent.com/85977271/145919586-26af9c8a-6792-42df-8e06-120a60300c7d.PNG" width="800" height="250"/>
 
 <img src= "https://user-images.githubusercontent.com/85977271/145919609-a0cceb0e-e885-445b-9c5e-f6c8ebd20d2c.PNG" width="800" height="250"/>
 
-### Litecoin Analysis
+### Litecoin Results
 In these graphs, you can see that Litecoin has many dips and peaks until 2024. We predict that the lowest dip will be in late 2023 and the highest peak will be in early 2024. Our recommendation: Be Cautious and keep your eye on the price changes! Remember to buy low and sell high!
 
 <img src= "https://user-images.githubusercontent.com/85977271/145919693-aa23dc79-7584-48f0-bf98-1c40884f8072.PNG" width="800" height="250"/>
 
 <img src= "" width="800" height="250"/>
 
-### XRP Analysis
+### XRP Results
 In these graphs, you can see that XRP is extremely inconsistent over the next three years with wildly contrasting changes in price. According to our predictions, the pattern does hold consistent with the dips occuring early every year and the peaks occuring a few months afterward. Our recommendation: Be cautious and time your purchases! Remember to buy low and sell high!
 
 <img src= "https://user-images.githubusercontent.com/85977271/145919644-f7d02ab8-3b04-458a-b96c-70ac1d4d23ef.PNG" width="800" height="250"/>

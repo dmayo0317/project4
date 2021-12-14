@@ -37,9 +37,24 @@ The parameters can be defined as:
  
 Linear regression models work best when the predictors are not correlated and are independent of each other.
 
-The value of d, therefore, is the minimum number of differences needed to make the series stationary. And ‘q’ is the order of the ‘Moving Average’ (MA) term. It refers to the number of lagged forecast errors that should go into the ARIMA Model. ARIMA models are, in theory, the most general class of models for forecasting a time series. Time series can be classified by transformations such as differencing and logging. In fact, the easiest way to think of ARIMA models is as fine-tuned versions of random-trend models with a bit of fine-tuning consisting of adding lags of the differenced series and/or lags of the forecast errors to the prediction equation This is needed to remove any last traces of autocorrelation from the forecast errors.
+In order to identify the appropriate ARIMA model for time series data, we need to begin by identifying the orders. We used SARIMAX to evaluate if the order would fit the model because there are more than one order that is used. SARIMAX stands for Seasonal AutoRegressive Integrated Moving Average with eXogenous regressors and provided an output of models to use to provided an acuate representatio of furture forecast. The follow are the models we learn to help get an acurate analysis:
+
+* ARIMA (0,0,0) = white noise model: mostly used in engineering models and will not be focused on in this report.
+
+* ARIMA (1,0,0) = first-order autoregressive model: if the series is stationary and autocorrelated, perhaps it can be predicted as a multiple of its previous value, plus a constant.  
  
-To identify the appropriate ARIMA model for time series data, we need to begin by identifying the orders. We used SARIMAX to evaluate if the order would fit the model because there are more than one order that is used. SARIMAX stands for Seasonal AutoRegressive Integrated Moving Average with eXogenous regressors.
+* ARIMA (2,0,0) second-order autoregressive model can be described as a system whose mean reversion takes place in a sinusoidally oscillating fashion, as the motion of a mass on a spring that is subjected to random shocks.
+ 
+*ARIMA (0,1,0) = random walk:  a random walk is a mathematical term known as a stochastic or random process, that describes a path that consists of a succession of random steps. An example of a random walk is the random walk on the integer number which starts at 0 and at each step moves +1 or −1 with equal probability. Other examples include the path traced by a molecule as it travels from a liquid state to a gas state.
+ 
+*ARIMA (1,1,0) = differenced first-order autoregressive model: one in which the current value is based on the immediately preceding value.
+ 
+*ARIMA (0,1,1) Single Exponential smoothing: The model uses a technique for smoothing time series data using the exponential window function. Whereas in the simple moving average the past observations are weighted equally, exponential functions are used to assign exponentially decreasing weights over time. It is an easily learned and easily applied procedure for making some determination based on prior assumptions by the user, such as seasonality.
+ 
+*ARIMA (0,2,1) or (0,2,2) Double Exponential Smoothing: a Model that an exponential moving average that takes into account the tendency of data to either increases or decrease over time without repeating
+
+***Note: The difference between single and double exponential is that single exponential smoothing uses a weighted moving average with exponentially decreasing weights.**
+
 
 ### Bitcoin Results
 In these graphs, you can see that Bitcoin continues with a steady rise with slide decreases in price. The largest dip in price is predicted to be in mid-2023 with the highest peak being in early 2024. Our predictions show that Bitcoin will rise to roughly $90,000 - $110,000 in the next three years. Our recommendation: Buy now to maximize your profits!

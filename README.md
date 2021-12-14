@@ -60,7 +60,7 @@ In these graphs, you can see that Litecoin has many dips and peaks until 2024. W
 
 <img src= "https://user-images.githubusercontent.com/85977271/145919693-aa23dc79-7584-48f0-bf98-1c40884f8072.PNG" width="800" height="250"/>
 
-<img src= "" width="800" height="250"/>
+<img src= "https://user-images.githubusercontent.com/85977271/145923006-ce06eb50-0682-4a08-8e14-1e400cbe6109.PNG" width="800" height="250"/>
 
 ### XRP Results
 In these graphs, you can see that XRP is extremely inconsistent over the next three years with wildly contrasting changes in price. According to our predictions, the pattern does hold consistent with the dips occuring early every year and the peaks occuring a few months afterward. Our recommendation: Be cautious and time your purchases! Remember to buy low and sell high!

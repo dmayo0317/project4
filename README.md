@@ -45,13 +45,13 @@ In order to identify the appropriate ARIMA model for time series data, we need t
  
 * ARIMA (2,0,0) second-order autoregressive model can be described as a system whose mean reversion takes place in a sinusoidally oscillating fashion, as the motion of a mass on a spring that is subjected to random shocks.
  
-*ARIMA (0,1,0) = random walk:  a random walk is a mathematical term known as a stochastic or random process, that describes a path that consists of a succession of random steps. An example of a random walk is the random walk on the integer number which starts at 0 and at each step moves +1 or −1 with equal probability. Other examples include the path traced by a molecule as it travels from a liquid state to a gas state.
+* ARIMA (0,1,0) = random walk:  a random walk is a mathematical term known as a stochastic or random process, that describes a path that consists of a succession of random steps. An example of a random walk is the random walk on the integer number which starts at 0 and at each step moves +1 or −1 with equal probability. Other examples include the path traced by a molecule as it travels from a liquid state to a gas state.
  
-*ARIMA (1,1,0) = differenced first-order autoregressive model: one in which the current value is based on the immediately preceding value.
+* ARIMA (1,1,0) = differenced first-order autoregressive model: one in which the current value is based on the immediately preceding value.
  
-*ARIMA (0,1,1) Single Exponential smoothing: The model uses a technique for smoothing time series data using the exponential window function. Whereas in the simple moving average the past observations are weighted equally, exponential functions are used to assign exponentially decreasing weights over time. It is an easily learned and easily applied procedure for making some determination based on prior assumptions by the user, such as seasonality.
+* ARIMA (0,1,1) Single Exponential smoothing: The model uses a technique for smoothing time series data using the exponential window function. Whereas in the simple moving average the past observations are weighted equally, exponential functions are used to assign exponentially decreasing weights over time. It is an easily learned and easily applied procedure for making some determination based on prior assumptions by the user, such as seasonality.
  
-*ARIMA (0,2,1) or (0,2,2) Double Exponential Smoothing: a Model that an exponential moving average that takes into account the tendency of data to either increases or decrease over time without repeating
+* ARIMA (0,2,1) or (0,2,2) Double Exponential Smoothing: a Model that an exponential moving average that takes into account the tendency of data to either increases or decrease over time without repeating
 
 ***Note: The difference between single and double exponential is that single exponential smoothing uses a weighted moving average with exponentially decreasing weights.**
 
